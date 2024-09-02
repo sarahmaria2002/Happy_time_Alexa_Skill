@@ -11,18 +11,6 @@ Users can interact with the skill through voice commands to get random facts, th
 - **Jokes:** Hear a random joke to lighten your mood.
 - **Music:** Choose from various music genres like EDM, Hip-Hop, K-Pop, Rock, Pop, Country, and Latin, and get music recommendations.
 
-## Installation
-
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-
-Navigate to the project directory:
-cd happy-time-alexa-skill
-
-Install dependencies:
-npm install
-
 Update the X-RapidAPI-Key in the code with your RapidAPI key for the APIs used: (make your account in RapidAPI and get the keys if needed)
 - Random Facts API: random-facts4.p.rapidapi.com.
 - Google News API: google-news1.p.rapidapi.com.
