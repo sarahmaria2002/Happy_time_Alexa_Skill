@@ -1,0 +1,194 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "happy time",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "nope",
+            "no",
+            "stop"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "newsIntent",
+          "slots": [],
+          "samples": [
+            "news headlines",
+            "headlines",
+            "titles of news",
+            "news titles",
+            "alexa i want to hear some news",
+            "tell me news",
+            "news flash",
+            "latest news",
+            "world news",
+            "news around the world",
+            "update me with what is happening around me",
+            "update me",
+            "what is happening around me",
+            "What is happening around the world",
+            "tell me some news",
+            "news"
+          ]
+        },
+        {
+          "name": "factsIntent",
+          "slots": [],
+          "samples": [
+            "alexa tell me a fact",
+            "facts",
+            "can you tell me some facts",
+            "can you tell me a fact",
+            "truth",
+            "tell me an interesting fact",
+            "tell me a fact",
+            "interesting facts",
+            "interesting fact",
+            "tell me some interesting facts",
+            "tell me random info",
+            "fact",
+            "random fact",
+            "tell me random fact"
+          ]
+        },
+        {
+          "name": "jokesIntent",
+          "slots": [],
+          "samples": [
+            "alexa tell me some jokes",
+            "alexa tell me a joke",
+            "tell me a humourous sentence",
+            "tell me a one line joke",
+            "one liner joke",
+            "give me a one liner joke",
+            "humour me",
+            "gag",
+            "jokes",
+            "make me laugh",
+            "tell me a funny sentence",
+            "funny sentences",
+            "joke",
+            "tell me something funny",
+            "tell me a joke"
+          ]
+        },
+        {
+          "name": "musicIntent",
+          "slots": [],
+          "samples": [
+            "alexa recommend me some songs",
+            "music",
+            "suggest me some songs",
+            "amazing songs",
+            "top songs",
+            "tell me some top songs",
+            "recommend me some music"
+          ]
+        },
+        {
+          "name": "movieIntent",
+          "slots": [],
+          "samples": [
+            "alexa recommend me some films",
+            "films",
+            "alexa recommend me some movies",
+            "netflix movies",
+            "top movies",
+            "movies ",
+            "recommend me some movies"
+          ]
+        },
+        {
+          "name": "recommendmusic",
+          "slots": [
+            {
+              "name": "music",
+              "type": "music",
+              "multipleValues": {
+                "enabled": true
+              }
+            }
+          ],
+          "samples": [
+            "{music}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "latin"
+              }
+            },
+            {
+              "name": {
+                "value": "country"
+              }
+            },
+            {
+              "name": {
+                "value": "pop"
+              }
+            },
+            {
+              "name": {
+                "value": "rock"
+              }
+            },
+            {
+              "name": {
+                "value": "kpop",
+                "synonyms": [
+                  "k-pop",
+                  "k pop"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "hiphop",
+                "synonyms": [
+                  "hip-hop",
+                  "hip hop"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "edm",
+                "synonyms": [
+                  "ed m",
+                  "ed music",
+                  "e d m",
+                  "electronic music"
+                ]
+              }
+            }
+          ],
+          "name": "music"
+        }
+      ]
+    }
+  },
+  "version": "19"
+}
