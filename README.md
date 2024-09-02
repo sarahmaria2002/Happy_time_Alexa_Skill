@@ -23,10 +23,10 @@ cd happy-time-alexa-skill
 Install dependencies:
 npm install
 
-Update the X-RapidAPI-Key in the code with your RapidAPI key for the APIs used:
-Random Facts API: random-facts4.p.rapidapi.com.
-Google News API: google-news1.p.rapidapi.com.
-Geek Jokes API: geek-jokes.p.rapidapi.com.
+Update the X-RapidAPI-Key in the code with your RapidAPI key for the APIs used: (make your account in RapidAPI and get the keys if needed)
+- Random Facts API: random-facts4.p.rapidapi.com.
+- Google News API: google-news1.p.rapidapi.com.
+- Geek Jokes API: geek-jokes.p.rapidapi.com.
 
 Deploy the skill using the Alexa Developer Console or the Alexa Skills Kit Command-Line Interface (ASK CLI).
 
